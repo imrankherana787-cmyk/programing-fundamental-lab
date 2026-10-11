@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main () {
+double x1,y1,x2,y2;
+double distance;
+cout <<"enter x1 and y1:"<< endl;
+cin >> x1 >> y1;
+cout << "enter x2 and y2:" << endl;
+cin >> x2 >> y2;
+distance= sqrt(pow(x2-x1,2) + pow(y2-y1,2));
+cout << "distance" << distance << endl;
+return 0;
+}
